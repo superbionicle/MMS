@@ -1,0 +1,23 @@
+version: '3.6'
+services:
+  gitlab:
+    image: gitlab/gitlab-ee:latest
+    container_name: gitlab
+    restart: always
+    hostname: 'gitlab.self-hosted.com'
+    # environment:
+    #   GITLAB_OMNIBUS_CONFIG: |
+    #     gitlab_rails['initial_root_password'] = 'adminRoot2025*'
+      # Add any other gitlab.rb configuration here, each on its own line
+      #external_url 'https://gitlab.example.com'
+    ports:
+      - '80:80'
+      - '443:443'
+      - '22:22' # pour intéragir avec Git
+    volumes:
+      - '/Users/arthur/Downloads/DevSecOps/Gitlab/config:/etc/gitlab'
+      - '/Users/arthur/Downloads/DevSecOps/Gitlab/logs:/var/log/gitlab'
+      - '/Users/arthur/Downloads/DevSecOps/Gitlab/data:/var/opt/gitlab'
+    shm_size: '256m'
+
+# OK mais il manque les credentials pour se connecter en admin : https://docs.gitlab.com/install/next_steps/#initial-sign-in
