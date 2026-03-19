@@ -1,0 +1,12 @@
+[submodule "Teamspeak"]
+	path = Teamspeak
+	url = git@github.com:superbionicle/Teamspeak.git
+[submodule "ADGuard-Home"]
+	path = ADGuard-Home
+	url = git@github.com:superbionicle/ADGuard-Home.git
+[submodule "NSH"]
+	path = NSH
+	url = git@github.com:superbionicle/NSH.git
+[submodule "Projet-K8S"]
+	path = Projet-K8S
+	url = git@github.com:superbionicle/Projet-K8S.git
