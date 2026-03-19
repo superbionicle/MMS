@@ -1,5 +1,7 @@
 # Mac Mini Serveur (MMS)
 
+Pull de tous les submodules : `git pull --recurse-submodules && git submodule update --init --recursive`
+
 Les différents projets déployés sur le MMS :
 - [ADGuard](https://github.com/superbionicle/ADGuard-Home)
     - port 53:53/tcp
