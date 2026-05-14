@@ -28,6 +28,8 @@ Les différents projets déployés sur le MMS :
     - port 9000:9000
 - [Dozzle](https://github.com/superbionicle/Portainer)
     - port 8080:8080
+- [Glance](https://github.com/superbionicle/Glance)
+    - port 8081:8080
 
 Projets à déployer :
 - [Projet K8S](https://github.com/superbionicle/Projet-K8S)
