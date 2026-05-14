@@ -10,3 +10,9 @@
 [submodule "Projet-K8S"]
 	path = Projet-K8S
 	url = git@github.com:superbionicle/Projet-K8S.git
+[submodule "Dozzle"]
+	path = Dozzle
+	url = git@github.com:superbionicle/Dozzle.git
+[submodule "Portainer"]
+	path = Portainer
+	url = git@github.com:superbionicle/Portainer.git

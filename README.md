@@ -1,5 +1,6 @@
 # Mac Mini Serveur (MMS)
 
+Ajouter un nouveau submodule : `git submodule add <URL SSH repo to clone>`
 Pull de tous les submodules : `git submodule update --remote --recursive`
 
 Les différents projets déployés sur le MMS :
@@ -15,7 +16,18 @@ Les différents projets déployés sur le MMS :
     - port 9987:9987/udp
     - port 10011:10011
     - port 30033:30033
+- [Netflix Self Hosted (NSH)](https://github.com/superbionicle/NSH)
+    - port 8096:8096/tcp     (Jellyfin)
+    - port 7359:7359/udp     (Jellyfin)
+    - port 9091:9091         (Transmission)
+    - port 51413:51413       (Transmission)
+    - port 9696:9696         (Prowlarr)
+    - port 7878:7878         (Radarr)
+    - port 8989:8989         (Sonarr)
+- [Portainer](https://github.com/superbionicle/Portainer)
+    - port 9000:9000
+- [Dozzle](https://github.com/superbionicle/Portainer)
+    - port 8080:8080
 
 Projets à déployer :
-- [Netflix Self Hosted (NSH)](https://github.com/superbionicle/NSH)
 - [Projet K8S](https://github.com/superbionicle/Projet-K8S)
