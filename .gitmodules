@@ -16,3 +16,6 @@
 [submodule "Portainer"]
 	path = Portainer
 	url = git@github.com:superbionicle/Portainer.git
+[submodule "Glance"]
+	path = Glance
+	url = git@github.com:superbionicle/Glance.git
